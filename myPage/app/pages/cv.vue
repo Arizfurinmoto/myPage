@@ -163,6 +163,68 @@ import bannerImg from "~/assets/img/5.jpg";
                 iconName="heroicons-solid:wrench"
                 bannerName="Skills"
             />
+
+            <div class="grid">
+                <div>
+                    <div style="text-align: center">
+                        <Icon
+                            name="heroicons-solid:user-group"
+                            size="25px"
+                            style="color: azure"
+                        />
+                    </div>
+                    <p style="text-align: center"><b>Soft</b></p>
+                    <div style="margin-left: 55px">
+                        <ul>
+                            <li>Communication skills</li>
+                            <li>Leadership</li>
+                            <li>Teamwork</li>
+                            <li>Time Management</li>
+                            <li>Creativity</li>
+                            <li>Empathy</li>
+                            <li>High personal culture</li>
+                            <li>Critical Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div style="text-align: center">
+                        <Icon
+                            name="heroicons-solid:cpu-chip"
+                            size="25px"
+                            style="color: azure"
+                        />
+                    </div>
+                    <p style="text-align: center"><b>Hard</b></p>
+                    <div
+                        style="
+                            margin-left: 55px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                        "
+                    >
+                        <ul>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                            <li>C#</li>
+                            <li>React Native</li>
+                            <li>Python</li>
+                            <li>GitHub</li>
+                            <li>MS Word</li>
+                        </ul>
+                        <ul>
+                            <li>MS Excel</li>
+                            <li>PowerBI</li>
+                            <li>Canva</li>
+                            <li>Adonis</li>
+                            <li>WordPress</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Languages -->
@@ -171,6 +233,15 @@ import bannerImg from "~/assets/img/5.jpg";
                 iconName="heroicons-solid:chat-bubble-left-right"
                 bannerName="Languages"
             />
+
+            <section style="display: flex; justify-content: center;">
+                <ul>
+                    <li>Polish (Native)</li>
+                    <li>English (Fluent)</li>
+                    <li>Spanish (pre-intermediate)</li>
+                    <li>German (Basic)</li>
+                </ul>
+            </section>
         </section>
 
         <!-- Hobby -->

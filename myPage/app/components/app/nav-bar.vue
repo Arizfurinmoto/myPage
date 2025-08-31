@@ -3,13 +3,21 @@
         <ul>
             <li>
                 <NuxtLink to="/">
-                    <strong>My App</strong>
+                    <strong>About me</strong>
+                </NuxtLink>
+            </li>
+            <li>
+                <NuxtLink :to="{ name: 'cv' }">
+                    Quick Overview
                 </NuxtLink>
             </li>
         </ul>
         <ul>
             <li>
-                <NuxtLink :to="{ name: 'about' }">About </NuxtLink>
+                <NuxtLink :to="{ name: 'projects' }">Projects</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink :to="{ name: 'contact' }">Contact</NuxtLink>
             </li>
         </ul>
     </nav>

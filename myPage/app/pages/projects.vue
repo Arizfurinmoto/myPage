@@ -69,6 +69,9 @@ const goToRepo = (link: string) => {
                     </button>
                 </div>
             </article>
+            <article style="display: flex; justify-content: center;">
+                And more...
+            </article>
         </div>
     </div>
 </template>

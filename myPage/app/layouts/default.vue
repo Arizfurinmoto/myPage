@@ -8,6 +8,7 @@ import { AppNavBar } from "#components";
         <main class="container">
             <slot />
         </main>
+        <AppFooter/>
     </div>
 </template>
 

@@ -30,7 +30,7 @@ import bannerImg from "~/assets/img/5.jpg";
                     <p>Intern in the field of Data Management</p>
                     <p>
                         <b>Responsibilities:</b><br />
-                        Updating, confirming and retrieving data
+                        Updating, confirming and retrieving data.
                     </p>
                 </section>
             </section>
@@ -234,7 +234,7 @@ import bannerImg from "~/assets/img/5.jpg";
                 bannerName="Languages"
             />
 
-            <section style="display: flex; justify-content: center;">
+            <section style="display: flex; justify-content: center">
                 <ul>
                     <li>Polish (Native)</li>
                     <li>English (Fluent)</li>
@@ -250,6 +250,22 @@ import bannerImg from "~/assets/img/5.jpg";
                 iconName="heroicons-solid:emoji-happy"
                 bannerName="Hobby"
             />
+
+            <section style="padding-left: 55px; padding-right: 55px">
+                <p>
+                    I manage and play in an amateur 6-a-side football (Socca)
+                    team. We are currently competing in the Warsaw Liga Fanów.
+                </p>
+                <p>
+                    I enjoy learning languages and have recently been studying
+                    Spanish.
+                </p>
+                <p>I am a fan of the literature of Erich Maria Remarque.</p>
+                <p>
+                    I train regularly at the gym and occasionally play padel
+                    with my friends.
+                </p>
+            </section>
         </section>
     </div>
 </template>

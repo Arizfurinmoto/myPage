@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 const {
-    data: tasks,
+    data: projects,
     error,
     status,
-} = await useFetch("/api/tasks", { lazy: true });
+} = await useFetch("/api/projects", { lazy: true });
 </script>
 
 <template>
@@ -17,8 +17,8 @@ const {
             {{ error.statusMessage }}
         </article>
         <div v-else>
-            <article v-for="task in tasks" :key="task.id">
-                {{ task.title }}
+            <article v-for="project in projects" :key="project.id">
+                {{ project.title }}
             </article>
         </div>
     </div>

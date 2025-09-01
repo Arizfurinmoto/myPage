@@ -60,7 +60,7 @@
     box-shadow: 0 3px 6px rgba(240, 255, 255, 0.5);
 }
 
-.job_container{
+.job_container {
     box-shadow: 0 0px 10px rgba(240, 248, 255, 0.082);
 }
 
@@ -75,7 +75,7 @@
     align-items: center;
 }
 
-.job_header{
+.job_header {
     font-size: 26px;
     font-weight: bold;
 }
@@ -85,10 +85,10 @@
     height: 15px;
     background-color: azure;
     border-radius: 150px;
-    margin: 20px
+    margin: 20px;
 }
 
-.job_date{
+.job_date {
     margin-right: 55px;
     font-style: oblique;
     text-transform: uppercase;
@@ -98,4 +98,22 @@
 .job_decription_container {
     margin-left: 55px;
     margin-right: 55px;
+}
+
+.gallery_img_container {
+    /* background-color: aliceblue; */
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.gallery_img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }

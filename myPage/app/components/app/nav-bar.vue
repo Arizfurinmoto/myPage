@@ -1,6 +1,6 @@
 <template>
     <div
-        style="position: sticky; top: 0; background-color: rgb(19, 22.5, 30.5)"
+        style="position: sticky; top: 0; background-color: rgb(19, 22.5, 30.5); z-index: 20;"
     >
         <nav class="container">
             <ul>

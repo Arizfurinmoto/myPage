@@ -1,8 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2025-07-15",
-  devtools: { enabled: true },
-  css: ["@picocss/pico"],
-  srcDir: "app/",
-  modules: ["@nuxt/icon"],
+    compatibilityDate: "2025-07-15",
+    devtools: { enabled: true },
+    css: ["@picocss/pico"],
+    srcDir: "app/",
+    modules: ["@nuxt/icon"],
+    nitro: {
+        preset: "netlify",
+    },
+    routeRules: {
+        "/**": { static: true },
+    },
 });

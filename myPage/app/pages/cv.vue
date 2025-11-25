@@ -39,6 +39,25 @@ import bannerImg from "~/assets/img/5.jpg";
                 <div class="job_header_container">
                     <div class="job_header_box">
                         <div class="point" />
+                        <div class="job_header">INVO</div>
+                    </div>
+
+                    <div class="job_date">SEPTEMBER 2025 - NOVEMBER 2025</div>
+                </div>
+                <section class="job_decription_container">
+                    <p>Frontend web developer intern</p>
+                    <p>
+                        <b>Responsibilities:</b><br />
+                        Reviewing code, prepare and implement translation keys
+                        for language versions of the website<br/>Nuxt.js, Vue.js
+                    </p>
+                </section>
+            </section>
+
+            <section class="job_container">
+                <div class="job_header_container">
+                    <div class="job_header_box">
+                        <div class="point" />
                         <div class="job_header">
                             Tarvos Creation sp. z o. o.
                         </div>
